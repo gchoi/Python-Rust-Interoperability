@@ -53,5 +53,5 @@ Using [pyo3](https://pyo3.rs/v0.17.3/).
 $ cd /rust/pyo3_monte_carlo_pi
 $ cargo build --release
 $ cp target/release/libmontecarlopi.dylib montecarlopi.so
-$ pyhon main.py
+$ python main.py
 ```
