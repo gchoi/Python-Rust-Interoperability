@@ -10,8 +10,8 @@ $ python monte_carlo_pi.py
 ```
 
 You have two calculation options:
-1. CalcOption.MULTITHREADING: using Multi-threading
-2. CalcOption.MULTIPROCESSING: using Multi-processing
+1. `CalcOption.MULTITHREADING`: using Multi-threading
+2. `CalcOption.MULTIPROCESSING`: using Multi-processing
 
 ```python
 if __name__ == "__main__":
