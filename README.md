@@ -4,6 +4,7 @@ How to use Rust library in Python
 ## Test 1. Pure Python: `/python`
 
 ```bash
+$ pip install -r requirements.txt
 $ cd python
 $ python monte_carlo_pi.py
 ```
@@ -41,7 +42,7 @@ $ cargo run --example pi --release
 $ cd /rust/py_monte_carlo_pi
 $ cargo build --release
 $ cp target/release/libmontecarlopi.dylib montecarlopi.so
-$ pyhon main.py
+$ python main.py
 ```
 
 ## Test 4. Rust-Python Interoperability: `/rust/pyo3_monte_carlo_pi`
